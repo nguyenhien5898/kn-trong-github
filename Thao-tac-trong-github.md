@@ -13,6 +13,11 @@
 -Fork: chọn biểu tượng fork trên github
 
 -Push: đẩy các thay đổi của mình vào máy chủ
-    $ git push origin master
--pull: Khi muốn cập nhật các thay đổi từ trên remote server về local repository
-   $ git pull <tên-remote> <tên-remote-branch>
+   - $ git push origin master  
+-pull: Khi muốn cập nhật các thay đổi từ trên remote server về local repository  
+   - $ git pull <tên-remote> <tên-remote-branch> 
+   tuy nhiên, khi sử dụng pull thì sẽ cập nhật tất cả các file trên server về local (dư thừa)  
+   ta có thể sử dụng fetch, sẽ cập nhật nhữ file mà trên server có những local chưa có   
+    - $ git fetch origin  
+ -git remote add thêm Remote vào Local  
+     - git remote add <remote_name> <url>
