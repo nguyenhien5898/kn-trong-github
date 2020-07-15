@@ -20,4 +20,4 @@
    ta có thể sử dụng fetch, sẽ cập nhật nhữ file mà trên server có những local chưa có   
     - $ git fetch origin  
  -git remote add thêm Remote vào Local  
-     - git remote add <remote_name> <url>  
+     - git remote add <remote_name> <đường dẫn đến remote>   
